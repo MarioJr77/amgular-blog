@@ -1,15 +1,14 @@
 <div class="container-big-card">
   <div class="big-card-photo">
-    <img src="https://www.nme.com/wp-content/uploads/2019/05/avengersrdj.jpg" alt="" height="200px">
+    <img [src]="photoCover" alt="" height="200px">
   </div>
   <div class="big-card-title">
-    <a href="#"><h1>Saiu a nova versão do Angular</h1></a>
+    <a href="#"><h1>{{ cardTitle }}</h1></a>
   </div>
   <div class="big-card-description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dicta.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odit doloribus repudiandae.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
